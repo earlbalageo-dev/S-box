@@ -1,0 +1,30 @@
+{
+  "name": "s-box",
+  "version": "1.0.0",
+  "description": "smart container that detects stock level and automatically either notify you or order it",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earlbalageo-dev/S-box.git"
+  },
+  "author": "Earl Balageo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/earlbalageo-dev/S-box/issues"
+  },
+  "homepage": "https://github.com/earlbalageo-dev/S-box#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
