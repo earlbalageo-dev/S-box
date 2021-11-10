@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "smart container that detects stock level and automatically either notify you or order it",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server",
+    "server": "nodemon backend/server"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,8 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-async-handler": "^1.2.0",
-    "mongoose": "^6.0.12"
+    "mongoose": "^6.0.12",
+    "socket.io": "^4.3.2"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
